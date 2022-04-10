@@ -1,0 +1,30 @@
+{
+  "name": "demail",
+  "version": "1.0.0",
+  "description": "Gmail bulk deleter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evaasmakula/demail.git"
+  },
+  "keywords": [
+    "gmail",
+    "bulk",
+    "delete"
+  ],
+  "author": "evaasmakula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evaasmakula/demail/issues"
+  },
+  "homepage": "https://github.com/evaasmakula/demail#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "google-auth-library": "^7.14.1",
+    "googleapis": "^100.0.0",
+    "readline": "^1.3.0"
+  }
+}
